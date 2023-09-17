@@ -56,7 +56,7 @@ planets.then(planets => {
                 const character$$ = document.createElement("div");
                 character$$.innerHTML = `
                 <h4>${character.name}</h4>
-                <img src="${character.avatar}" alt="${character.name}">
+                <img class="characterImg" src="${character.avatar}" alt="${character.name}">
                 `;
                  // Agregar evento click para mostrar/ocultar descripción
                  character$$.addEventListener("click", () => {
